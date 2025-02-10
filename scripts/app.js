@@ -637,7 +637,7 @@ function dropStars(event, machine, slotIndex) {
     let size = '';
     switch (machine) {
         case 'Exploiter':
-            size = 'large';
+            size = 'medium';
             break;
         case 'Empowerment': 
             size = slotSizeMap[machine][slotIndex];
@@ -1158,7 +1158,7 @@ function adjustStarBrightness(machine, slotIndex) {
     let newBrightness = 0;
     switch (machine) {
         case 'Exploiter':
-            newBrightness = 4;
+            newBrightness = 3;
             break;
         case 'Empowerment':
             switch (slotSizeMap[machine][slotIndex]) {
